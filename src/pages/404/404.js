@@ -74,7 +74,7 @@ export function Page404() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Enter Text
+                Enter Text Here
               </a>
             </div>
           </Fragment>
