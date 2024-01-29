@@ -74,7 +74,7 @@ export function Page404() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Animation from Ghost in the Shell (1995)
+                Enter Text
               </a>
             </div>
           </Fragment>
