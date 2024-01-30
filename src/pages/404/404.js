@@ -70,11 +70,11 @@ export function Page404() {
               <a
                 className={styles.credit}
                 data-visible={visible}
-                // href="https://www.imdb.com/title/tt0113568/"
+                href="https://www.imdb.com/title/tt0113568/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Enter Text Here
+                Testing Text
               </a>
             </div>
           </Fragment>
