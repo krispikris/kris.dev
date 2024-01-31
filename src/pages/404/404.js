@@ -74,7 +74,7 @@ export function Page404() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Testing Text. Word.
+                Enter text here.
               </a>
             </div>
           </Fragment>
