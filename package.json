@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "homepage": "https://hamishw.com",
   "description": "Portfolio site for Kristopher Han",
-  "repository": "https://github.com/HamishMW/portfolio.git",
-  "author": "Kristopher Han <hello@hamishw.com>",
+  "repository": "https://github.com/krispikris/kris.dev.git",
+  "author": "Kristopher Han <kris@kristopherhan.com>",
   "devDependencies": {
     "@mapbox/rehype-prism": "^0.8.0",
     "@storybook/addon-a11y": "^6.5.10",
