@@ -1,8 +1,8 @@
 {
-  "name": "portfolio",
+  "name": "kris-portfolio",
   "version": "1.0.0",
   "homepage": "https://hamishw.com",
-  "description": "Portfolio site for Kristopher Han",
+  "description": "Kristopher Han Portfolio",
   "repository": "https://github.com/krispikris/kris.dev.git",
   "author": "Kristopher Han <kris@kristopherhan.com>",
   "devDependencies": {
