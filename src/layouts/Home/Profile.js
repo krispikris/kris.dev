@@ -22,17 +22,30 @@ const ProfileText = ({ visible, titleId }) => (
     </Heading>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
       I am Kris, currently living in Sacramento, CA. Welcome to my portfolio. My journey
-      becoming a software engineer has been anything but ordinary. My experience in tech
-      sales and photography has uniquely shaped my approach to programming and design.
+      to becoming a software engineer starts with my experience in tech sales and
+      photography, which both have uniquely shaped my approach to programming and design.
     </Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      If you’re interested in the technology and software I use, check out my{' '}
-      <Link href="/uses">uses page</Link>
+      Fusing customer-focused thinking from my sales background with the attention to
+      detail and creative eye of a photographer, I view software development through a
+      unique lens. My portfolio is a testament to my journey - where practical solutions
+      meet innovative design, and functionality meets user experience.
     </Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      In my spare time I like to practice Brazilian Jiu Jitsu, play video games, and{' '}
-      <Link href="/projects/volkihar-knight">make mods</Link>. I’m always down for hearing
-      about new projects, so feel free to drop me a line.
+      Web development is not just about coding, for me. Programming is about creating
+      experiences. Similar to a camera in photography, every angle, every shot, matters. I
+      bring that same eye for detail and beauty to designing digital spaces.
+    </Text>
+    <Text className={styles.description} data-visible={visible} size="l" as="p">
+      To me, at the end of the day, it’s all abount creating something that makes sense,
+      looks good, and feels right. If you’re interested in the technology and software I
+      use, check out my <Link href="/uses">uses page</Link>
+    </Text>
+    <Text className={styles.description} data-visible={visible} size="l" as="p">
+      A lifelong learner at heart, I value spending quality time with my family, friends,
+      and my dog/son Biggi. My hobbies include surfing, basketball, boxing, and going to
+      Sacramento Kings games. I am currently looking for work, so if you like what you
+      see, please send me a message. Together we can build and create something great.
     </Text>
   </Fragment>
 );
@@ -64,7 +77,7 @@ export const Profile = ({ id, visible, sectionRef }) => {
                 href="/contact"
                 icon="send"
               >
-                Send me a message
+                Send me a Message
               </Button>
             </div>
             <div className={styles.column}>
