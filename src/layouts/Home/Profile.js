@@ -22,9 +22,11 @@ const ProfileText = ({ visible, titleId }) => (
     </Heading>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
       I am Kris, currently living in Sacramento, CA. Welcome to my portfolio. My journey
-      as a software engineer has been anything but ordinary. My experience in tech sales
-      and photography has uniquely shaped my approach to programming and design. If you’re
-      interested in the technology and software I use, check out my{' '}
+      becoming a software engineer has been anything but ordinary. My experience in tech
+      sales and photography has uniquely shaped my approach to programming and design.
+    </Text>
+    <Text className={styles.description} data-visible={visible} size="l" as="p">
+      If you’re interested in the technology and software I use, check out my{' '}
       <Link href="/uses">uses page</Link>
     </Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
