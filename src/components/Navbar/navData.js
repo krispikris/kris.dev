@@ -4,13 +4,13 @@ export const navLinks = [
     pathname: '/#project-1',
   },
   {
-    label: 'Details',
+    label: 'Kris',
     pathname: '/#details',
   },
-  {
-    label: 'Articles',
-    pathname: '/articles',
-  },
+  // {
+  //   label: 'Articles',
+  //   pathname: '/articles',
+  // },
   {
     label: 'Contact',
     pathname: '/contact',

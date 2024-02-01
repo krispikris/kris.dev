@@ -18,34 +18,47 @@ import styles from './Profile.module.css';
 const ProfileText = ({ visible, titleId }) => (
   <Fragment>
     <Heading className={styles.title} data-visible={visible} level={3} id={titleId}>
-      <DecoderText text="Hi there" start={visible} delay={500} />
+      <DecoderText text="Hello, I’m Kris" start={visible} delay={500} />
     </Heading>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      I am Kris, currently living in Sacramento, CA. Welcome to my portfolio. My journey
-      to becoming a software engineer starts with my experience in tech sales and
-      photography, which both have uniquely shaped my approach to programming and design.
+      Web Developer and California Kid currently based in 📍 Rocklin, CA via Sacramento,
+      Los Angeles, and San Francisco. Alumni of the University of California, Irvine and
+      App Academy. Welcome to my portfolio.
+    </Text>
+    <Text className={styles.description} data-visible={visible} size="l" as="p">
+      My journey to becoming a software engineer starts with my experience in tech sales
+      and photography, which both have uniquely shaped my approach to programming and
+      design, and has allowed me to view software development through an unique lens.
     </Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
       Fusing customer-focused thinking from my sales background with the attention to
-      detail and creative eye of a photographer, I view software development through a
-      unique lens. My portfolio is a testament to my journey - where practical solutions
-      meet innovative design, and functionality meets user experience.
+      detail and creative eye of a photographer, My portfolio is a testament to my journey
+      - where practical solutions meet innovative design, and functionality meets user
+      experience.
     </Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      Web development is not just about coding, for me. Programming is about creating
-      experiences. Similar to a camera in photography, every angle, every shot, matters. I
-      bring that same eye for detail and beauty to designing digital spaces.
+      To me, Similar to a camera in photography, every angle, every shot, matters. I bring
+      that same eye for detail and beauty to designing digital spaces.
     </Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      To me, at the end of the day, it’s all abount creating something that makes sense,
-      looks good, and feels right. If you’re interested in the technology and software I
-      use, check out my <Link href="/uses">uses page</Link>
+      To me, web development is not just about code, 1s, and 0s. I create more than
+      software applications - I craft experiences. Each project is a blend of
+      functionality, aesthetics, and user flow. At the end of the day, it’s all about
+      creating something that makes sense, looks good, and feels right. If you’re
+      interested in the technology and software I use, check out my{' '}
+      <Link href="/uses">uses page</Link>
     </Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
       A lifelong learner at heart, I value spending quality time with my family, friends,
       and my dog/son Biggi. My hobbies include surfing, basketball, boxing, and going to
-      Sacramento Kings games. I am currently looking for work, so if you like what you
-      see, please send me a message. Together we can build and create something great.
+      Sacramento Kings games. Intrigued by creation, design, photography, traveling,
+      internal growth, delicious food, and even better conversations. Seeking to be
+      inspired, envision the unlikely, and surround myself with those who bring out the
+      best out of me.
+    </Text>
+    <Text className={styles.description} data-visible={visible} size="l" as="p">
+      I am currently looking for work, so if you like what you see, please send me a
+      message. Together, let’s build and create something great.
     </Text>
   </Fragment>
 );
@@ -99,7 +112,7 @@ export const Profile = ({ id, visible, sectionRef }) => {
                   placeholder={profileImgPlaceholder}
                   srcSet={[profileImg, profileImgLarge]}
                   sizes={`(max-width: ${media.mobile}px) 100vw, 480px`}
-                  alt="Me standing in front of the Torii on Miyajima, an island off the coast of Hiroshima in Japan"
+                  alt="Best Man Duties"
                 />
                 <svg
                   aria-hidden="true"
