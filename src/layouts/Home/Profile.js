@@ -26,9 +26,9 @@ const ProfileText = ({ visible, titleId }) => (
       App Academy. Welcome to my portfolio.
     </Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      My journey to becoming a software engineer starts with my experience in tech sales
-      and photography, which both have uniquely shaped my approach to programming and
-      design, and has allowed me to view software development through an unique lens.
+      My journey to becoming a software engineer begins with my experience in tech sales
+      and photography, both have uniquely shaped my approach to programming and design. As
+      a result, has allowed me to view software development through an unique lens.
     </Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
       Fusing customer-focused thinking from my sales background with the attention to
@@ -36,10 +36,7 @@ const ProfileText = ({ visible, titleId }) => (
       - where practical solutions meet innovative design, and functionality meets user
       experience.
     </Text>
-    <Text className={styles.description} data-visible={visible} size="l" as="p">
-      To me, Similar to a camera in photography, every angle, every shot, matters. I bring
-      that same eye for detail and beauty to designing digital spaces.
-    </Text>
+
     <Text className={styles.description} data-visible={visible} size="l" as="p">
       To me, web development is not just about code, 1s, and 0s. I create more than
       software applications - I craft experiences. Each project is a blend of
@@ -50,11 +47,11 @@ const ProfileText = ({ visible, titleId }) => (
     </Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
       A lifelong learner at heart, I value spending quality time with my family, friends,
-      and my dog/son Biggi. My hobbies include surfing, basketball, boxing, and going to
-      Sacramento Kings games. Intrigued by creation, design, photography, traveling,
-      internal growth, delicious food, and even better conversations. Seeking to be
-      inspired, envision the unlikely, and surround myself with those who bring out the
-      best out of me.
+      and my dog/son Biggi. My hobbies include surfing, basketball, boxing, bowling, and
+      going to Sacramento Kings games with my older brother. I am intrigued by creation,
+      design, photography, traveling, internal growth, delicious food, and even better
+      conversations. I am seeking to be inspired, envision the unlikely, and surround
+      myself with those who bring out the best out of me.
     </Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
       I am currently looking for work, so if you like what you see, please send me a
