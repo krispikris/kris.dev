@@ -1,29 +1,35 @@
-__  __  __
-\ \ \ \ \/
- \ \/\ \
-  \/  \/
+     .          
+   .'|          
+ .'  |          
+<    |          
+ |   | ____     
+ |   | \ .'     
+ |   |/  .      
+ |    /\  \     
+ |   |  \  \    
+ '    \  \  \   
+'------'  '---'
 
 The humans.txt file explains the team, technology,
 and graphic assets behind this site humanstxt.org.
 
 _______________________________________________________________________________
 
-WEB DEVELOPER | デザイナー
+WEB DEVELOPER | デザイナー | 軟體工程師
 
 Kristopher Han
-Hand crafted design & web development
+Web Development
 
 Design tools:
 Figma
 Photoshop
-Blender
+Lightroom
 
-twitter.com/hamishmw
-github.com/hamishmw
+github.com/krispikris
 
 _______________________________________________________________________________
 
-TECHNOLOGY | テクノロジー
+TECHNOLOGY | テクノロジー | 科技
 
 React
 Next.js
@@ -32,7 +38,7 @@ Framer Motion
 
 _______________________________________________________________________________
 
-FONTS | フォント
+FONTS | フォント | 字體
 
 Gotham
 Hiragino Kaku Gothic
