@@ -18,7 +18,7 @@ import { ProjectSummary } from 'layouts/Home/ProjectSummary';
 import { useEffect, useRef, useState } from 'react';
 import styles from './Home.module.css';
 
-const disciplines = ['Developer', 'Prototyper', 'Animator', 'Illustrator', 'Modder'];
+const disciplines = ['Designer', 'Photographer', 'Dog Dad'];
 
 export const Home = () => {
   const [visibleSections, setVisibleSections] = useState([]);
@@ -69,8 +69,8 @@ export const Home = () => {
     <div className={styles.home}>
       <Meta
         title="Designer + Developer"
-        description="Design portfolio of Kristopher Han — a product designer working on web & mobile
-          apps with a focus on motion, experience design, and accessibility."
+        description="Design portfolio of Kristopher Han — a software engineer working on web
+          apps with a focus on customers, experience design, and accessibility."
       />
       <Intro
         id="intro"
@@ -83,10 +83,11 @@ export const Home = () => {
         sectionRef={projectOne}
         visible={visibleSections.includes(projectOne.current)}
         index={1}
-        title="Designing the future of education"
-        description="Designing a platform to help educators build better online courseware"
-        buttonText="View project"
+        title="Find your Flo"
+        description="Buidling and designing a productivity platform to help humans find their flow state sooner."
+        buttonText="View Project"
         buttonLink="/projects/smart-sparrow"
+        // buttonLink="/projects/flo"
         model={{
           type: 'laptop',
           alt: 'Smart Sparrow lesson builder',
