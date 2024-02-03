@@ -121,8 +121,8 @@ export function Intro({ id, sectionRef, disciplines, scrollIndicatorHidden, ...r
               <a
                 className={styles.mobileScrollIndicator}
                 data-status={status}
-                // data-hidden={scrollIndicatorHidden}
-                // onClick={handleScrollClick}
+                data-hidden={scrollIndicatorHidden}
+                onClick={handleScrollClick}
               >
                 <VisuallyHidden>Scroll to projects</VisuallyHidden>
                 <ArrowDown aria-hidden />
