@@ -139,7 +139,7 @@ export const Home = () => {
           textures: [
             {
               srcSet: [sliceTexture, sliceTextureLarge],
-              // placeholder: sliceTexturePlaceholder,
+              placeholder: sliceTexturePlaceholder,
             },
           ],
         }}
