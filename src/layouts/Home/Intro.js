@@ -124,7 +124,7 @@ export function Intro({ id, sectionRef, disciplines, scrollIndicatorHidden, ...r
                 data-hidden={scrollIndicatorHidden}
                 onClick={handleScrollClick}
               >
-                <VisuallyHidden>Scroll to projects</VisuallyHidden>
+                {/* <VisuallyHidden>Scroll to projects</VisuallyHidden> */}
                 <ArrowDown aria-hidden />
               </a>
             </RouterLink>
