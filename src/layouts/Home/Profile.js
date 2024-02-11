@@ -38,14 +38,14 @@ const ProfileText = ({ visible, titleId }) => (
       experience.
     </Text>
 
-    <Text className={styles.description} data-visible={visible} size="l" as="p">
+    {/* <Text className={styles.description} data-visible={visible} size="l" as="p">
       To me, web development is not just about code, 1s, and 0s. I create more than
       software applications - I craft experiences. Each project is a blend of
       functionality, aesthetics, and user flow. At the end of the day, it’s all about
       creating something that makes sense, looks good, and feels right. If you’re
       interested in the technology and software I use, check out my{' '}
       <Link href="/uses">uses page</Link>
-    </Text>
+    </Text> */}
     <Text className={styles.description} data-visible={visible} size="l" as="p">
       A lifelong learner at heart, I value spending quality time with my family, friends,
       and my dog/son Biggi. My hobbies include surfing, basketball, boxing, bowling, and
