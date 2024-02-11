@@ -26,7 +26,7 @@ const ProfileText = ({ visible, titleId }) => (
       App Academy. Welcome to my portfolio.
     </Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      My journey to becoming a software engineer begins with my experience in tech sales
+      My journey to becoming a software engineer, begins with my experience in tech sales
       and photography, both have uniquely shaped my approach to programming and design. As
       a result, has allowed me to view software development through an unique lens.
     </Text>
