@@ -49,8 +49,8 @@ const ProfileText = ({ visible, titleId }) => (
     <Text className={styles.description} data-visible={visible} size="l" as="p">
       A lifelong learner at heart, I value spending quality time with my family, friends,
       and my dog/son Biggi. My hobbies include surfing, basketball, boxing, bowling, and
-      going to Sacramento Kings games with my older brother. I am intrigued by creation,
-      design, photography, traveling, internal growth, delicious food, and even better
+      going to Sacramento Kings games with family. I am intrigued by creation, design,
+      photography, traveling, internal growth, delicious food, and even better
       conversations. I am seeking to be inspired, envision the unlikely, and surround
       myself with those who bring out the best out of me.
     </Text>
