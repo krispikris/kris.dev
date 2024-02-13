@@ -56,7 +56,7 @@ const ProfileText = ({ visible, titleId }) => (
     </Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
       I am currently looking for work, so if you like what you see, please send me a
-      message. Together, let’s build and create something great.
+      message. Together, let’s build something memorable.
     </Text>
   </Fragment>
 );
