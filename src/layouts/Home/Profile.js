@@ -54,10 +54,10 @@ const ProfileText = ({ visible, titleId }) => (
       conversations. I am seeking to be inspired, envision the unlikely, and surround
       myself with those who bring out the best out of me.
     </Text>
-    <Text className={styles.description} data-visible={visible} size="l" as="p">
+    {/* <Text className={styles.description} data-visible={visible} size="l" as="p">
       I am currently looking for work, so if you like what you see, please send me a
       message. Together, let’s build something memorable.
-    </Text>
+    </Text> */}
   </Fragment>
 );
 
