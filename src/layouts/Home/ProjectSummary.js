@@ -91,7 +91,7 @@ export const ProjectSummary = ({
     <div className={styles.preview}>
       {model.type === 'laptop' && (
         <>
-          {renderKatakana('phone', visible)}
+          {renderKatakana('laptop', visible)}
           <div className={styles.model} data-device="laptop">
             <Model
               alt={model.alt}
