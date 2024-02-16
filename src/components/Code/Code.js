@@ -35,9 +35,9 @@ export const Code = props => {
       <div className={styles.actions}>
         <Button iconOnly onClick={handleCopy} aria-label="Copy">
           <span className={styles.copyIcon}>
-            {/* <Transition in={!copied}>
+            <Transition in={!copied}>
               {visible => <Icon icon="copy" data-visible={visible} />}
-            </Transition> */}
+            </Transition>
             <Transition in={copied}>
               {visible => <Icon icon="check" data-visible={visible} />}
             </Transition>
