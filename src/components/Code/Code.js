@@ -39,7 +39,7 @@ export const Code = props => {
               {visible => <Icon icon="copy" data-visible={visible} />}
             </Transition>
             <Transition in={copied}>
-              {visible => <Icon icon="check" data-visible={visible} />}
+              {/* {visible => <Icon icon="check" data-visible={visible} />} */}
             </Transition>
           </span>
         </Button>
