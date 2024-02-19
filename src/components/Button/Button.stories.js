@@ -13,15 +13,15 @@ const LoadableButton = props => {
 };
 
 export const Primary = () => (
-  // <StoryContainer>
-  //   <Button onClick={action('clicked')}>Text only</Button>
-  //   <Button icon="send" onClick={action('clicked')}>
-  //     Icon left
-  //   </Button>
-  //   <Button iconEnd="arrowRight" onClick={action('clicked')}>
-  //     Icon right
-  //   </Button>
-  // </StoryContainer>
+  <StoryContainer>
+    <Button onClick={action('clicked')}>Text only</Button>
+    <Button icon="send" onClick={action('clicked')}>
+      Icon left
+    </Button>
+    <Button iconEnd="arrowRight" onClick={action('clicked')}>
+      Icon right
+    </Button>
+  </StoryContainer>
 );
 
 export const Secondary = () => (
