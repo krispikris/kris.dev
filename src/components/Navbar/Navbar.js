@@ -189,7 +189,7 @@ export const Navbar = () => {
                 </a>
               </RouterLink>
             ))}
-            <NavbarIcons />
+            {/* <NavbarIcons /> */}
             <ThemeToggle isMobile />
           </nav>
         )}
