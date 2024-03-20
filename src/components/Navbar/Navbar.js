@@ -173,21 +173,21 @@ export const Navbar = () => {
         {visible => (
           <nav className={styles.mobileNav} data-visible={visible}>
             {navLinks.map(({ label, pathname }, index) => (
-              // <RouterLink href={pathname} scroll={false} key={label}>
-              //   <a
-              //     className={styles.mobileNavLink}
-              //     data-visible={visible}
-              //     aria-current={getCurrent(pathname)}
-              //     onClick={handleMobileNavClick}
-              //     style={cssProps({
-              //       transitionDelay: numToMs(
-              //         Number(msToNum(tokens.base.durationS)) + index * 50
-              //       ),
-              //     })}
-              //   >
-              //     {label}
-              //   </a>
-              // </RouterLink>
+              <RouterLink href={pathname} scroll={false} key={label}>
+                <a
+                  className={styles.mobileNavLink}
+                  data-visible={visible}
+                  aria-current={getCurrent(pathname)}
+                  onClick={handleMobileNavClick}
+                  style={cssProps({
+                    transitionDelay: numToMs(
+                      Number(msToNum(tokens.base.durationS)) + index * 50
+                    ),
+                  })}
+                >
+                  {label}
+                </a>
+              </RouterLink>
             ))}
             <NavbarIcons />
             <ThemeToggle isMobile />
