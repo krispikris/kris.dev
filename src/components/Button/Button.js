@@ -49,7 +49,7 @@ const ButtonContent = forwardRef(
 
     return (
       <Component
-        // className={classes(styles.button, className)}
+        className={classes(styles.button, className)}
         data-loading={loading}
         data-icon-only={iconOnly}
         data-secondary={secondary}
