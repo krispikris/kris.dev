@@ -78,7 +78,7 @@ const ButtonContent = forwardRef(
             icon={iconEnd}
           />
         )}
-        {/* <Transition unmount in={loading}>
+        <Transition unmount in={loading}>
           {visible => (
             <Loader
               className={styles.loader}
@@ -87,7 +87,7 @@ const ButtonContent = forwardRef(
               data-visible={visible}
             />
           )}
-        </Transition> */}
+        </Transition>
       </Component>
     );
   }
