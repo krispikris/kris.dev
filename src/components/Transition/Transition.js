@@ -7,7 +7,7 @@ import { useEffect, useRef, useState } from 'react';
  */
 export const Transition = ({
   children,
-  timeout = 0,
+  // timeout = 0,
   onEnter,
   onEntered,
   onExit,
