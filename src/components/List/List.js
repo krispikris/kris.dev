@@ -5,9 +5,9 @@ export const List = ({ ordered, children, className, ...rest }) => {
   const Element = ordered ? 'ol' : 'ul';
 
   return (
-    // <Element className={classes(styles.list, className)} {...rest}>
-    //   {children}
-    // </Element>
+    <Element className={classes(styles.list, className)} {...rest}>
+      {children}
+    </Element>
   );
 };
 
